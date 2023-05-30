@@ -1,0 +1,10 @@
+public static void main (String[] args ) {
+int sum=0;
+float avr;
+int [] intArray = {1 , 2 , 3 , 4 ,5 };
+for (int i=0 ; i<intArray.length;i++) {
+sum = sum+intArray[i];
+}
+avr = (float)sum/intArray.length;
+System.out.println(avr);
+}

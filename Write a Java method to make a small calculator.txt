@@ -1,0 +1,44 @@
+public class JavaApplication8 {
+
+
+
+static int get_sum(int num1 , int num2 ) {
+return num1+num2;
+}
+static int get_sub(int num1 , int num2 ) {
+return num1-num2;
+}
+static int get_multi(int num1 , int num2 ) {
+return num1*num2;
+}
+static int get_mod(int num1 , int num2 ) {
+return num1%num2;
+}
+public static void main (String[]args) {
+System.out.print("Enter the first number ");
+Scanner ob = new Scanner(System.in);
+int num1=ob.nextInt();
+System.out.print("Enter the first number ");
+int num2=ob.nextInt();
+System.out.print("Choose the operator ");
+Scanner sc2 = new Scanner (System.in);
+char operator = sc2.next().charAt(0);
+switch (operator) {
+case '+' :
+System.out.print(get_sum(num1,num2));
+break;
+case '-' :
+System.out.print(get_sub(num1,num2));
+break;
+case '*' :
+System.out.print(get_multi(num1,num2));
+break;
+case '%' :
+System.out.print(get_mod(num1,num2));
+break;
+default:
+System.out.print("please choose a operator");
+break;
+}
+}
+    }

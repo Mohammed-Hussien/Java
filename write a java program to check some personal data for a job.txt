@@ -1,0 +1,10 @@
+public static void main (String[] args) {
+int age=20;
+boolean is Employed_before = true ;
+int year_of_experience = 3 ;
+char grade = 'e';
+
+if (age <=30 && isEmployed_before ==true && year_of_experience >=2 && grade =='e')
+System.out.print ("You are acceptable");
+else
+System.out.print("You can find another job" );

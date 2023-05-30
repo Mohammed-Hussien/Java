@@ -1,0 +1,5 @@
+public static void main (String[] args) [
+String[] strArray= { "Mohamed" , "Ahmed" , "Hussien"};
+Arrays.sort(strArray);
+System.out.println(Arrays.toString(strArray));
+}

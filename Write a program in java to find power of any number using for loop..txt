@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class PowerCalculator {
+    public static void main(String[] args) {
+     int base , ex;
+     int result =1;
+        Scanner sc= new Scanner(System.in);
+        
+        System.out.print("Enter the base number: ");
+        base = sc.nextInt();
+        
+        System.out.print("Enter the exponent: ");
+         ex = sc.nextInt();
+        
+        for (int i = 0; i < ex ; i++) {
+            result *= base;
+        }
+        
+        System.out.println("The result is: " + result);
+    }
+}

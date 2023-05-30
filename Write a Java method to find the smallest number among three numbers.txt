@@ -1,0 +1,13 @@
+public static double smallest(double x , double y , double z )
+{
+return Math.min(x,y,z);
+}
+public static void main (String[]args) {
+Scanner sc = new Scanner (System.in);
+System.out.print("Input the first number) ;
+double x = sc.nextDouble();
+System.out.print("Input the first number) ;
+double y = sc.nextDouble();
+System.out.print("Input the first number) ;
+double z = sc.nextDouble();
+System.out.print("The smallest number is " + smallest(x,y,z) );
